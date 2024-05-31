@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Anurag\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Anurag\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Anurag\bin;A:\Downloads\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\System32\wbem;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\MongoDB\Server\5.0\bin;A:\android\platform-tools;C:\Program Files\nodejs;C:\Users\Anurag\.local\share\solana\install\active_release\bin;C:\Users\Anurag\.cargo\bin;C:\Program Files (x86)\Scripts;C:\Program Files (x86);C:\Users\Anurag\AppData\Local\Microsoft\WindowsApps;C:\Users\Anurag\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Anurag\.dotnet\tools;C:\Users\Anurag\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Anurag\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\heroku\bin;C:\Users\Anurag\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'A:\AnUrAG\VegaVid Technology\Assignment\mmosh-pit\liquid-hearts-bot\node_modules\oposcore\src'
+
+npm manifest: 
+  {
+    "name": "tg-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "ts-node ./index.ts",
+      "dev": "ts-node-dev ./index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@grammyjs/runner": "^2.0.3",
+      "@project-serum/anchor": "^0.26.0",
+      "@solana/web3.js": "^1.78.5",
+      "@twa-dev/sdk": "^6.9.0",
+      "@twa-dev/types": "^6.9.0",
+      "bs58": "^5.0.0",
+      "dotenv": "^16.3.1",
+      "grammy": "^1.11.2",
+      "mongodb": "^6.1.0",
+      "liquidhearts": "1.0.11",
+      "puppeteer": "21.3.1"
+    },
+    "devDependencies": {
+      "ts-node": "^10.9.1",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
